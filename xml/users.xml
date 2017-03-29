@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users SYSTEM "users.dtd">
 <users>
   <user>
     <id>1</id>
@@ -9,8 +10,8 @@
     <sex>male</sex>
     <registrydate>20/02/2017</registrydate>
     <activity_list type="array">
-      <id>1</id>
-      <id>2</id>
+      <idlist1>1</idlist1>
+      <idlist2>2</idlist2>
     </activity_list>
   </user>
 </users>

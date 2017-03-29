@@ -1,0 +1,12 @@
+<!ELEMENT users (name)>
+<!ELEMENT user (id, name, dni, type, dob, sex, registrydate, activity_list)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT registrydate (#PCDATA)>
+<!ELEMENT activity_list (idlist)>
+<!ELEMENT idlist1 (#PCDATA)>
+<!ELEMENT idlist2 (#PCDATA)>
