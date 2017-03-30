@@ -5,12 +5,12 @@
 		<id>1</id>
 		<name>Group 1</name>
 		<creator_id>1</creator_id>
-		<collaborators_id>
+		<collaborators_id type="array">
 			<id>1</id>
 			<id>2</id>
 		</collaborators_id>
 
-		<users_id>
+		<users_id type="array">
 			<id>3</id>
 			<id>4<id>
 		</users_id>

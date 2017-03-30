@@ -1,0 +1,15 @@
+<!ELEMENT groups(group)>
+<!ELEMENT group (id, name, creator_id, collaborators_id, users_id, description, activity_list, url_icon, date_creation)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT creator_id (#PCDATA)>
+<!ELEMENT collaborators_id (id)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT users_id (id)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT activity_list (id)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT url_icon (#PCDATA)>
+<!ELEMENT date_creation (#PCDATA)>
+
