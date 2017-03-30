@@ -5,13 +5,12 @@
     <id>1</id>
     <name>Jaume Crespí</name>
     <dni>43123456</dni>
-    <type>creator</type>
     <dob>13/05/1994</dob>
     <sex>male</sex>
     <registrydate>20/02/2017</registrydate>
     <activity_list type="array">
-      <idlist1>1</idlist1>
-      <idlist2>2</idlist2>
+      <id>1</id>
+      <id>2</id>
     </activity_list>
   </user>
 </users>

@@ -1,16 +1,19 @@
 <!ELEMENT activities (activity)>
-<!ELEMENT activity (id, creator_id, title, date, price, capacity, location, duration, description, imgurl)>
+<!ELEMENT activity (id, group_id, title, date, price, capacity, location, time, description, url_img)>
 <!ELEMENT id (#PCDATA)>
-<!ELEMENT creator_id (#PCDATA)>
+<!ELEMENT group_id (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT date (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT capacity (current, maximum)>
 <!ELEMENT current (#PCDATA)>
 <!ELEMENT maximum (#PCDATA)>
-<!ELEMENT location (latitude, longitude)>
+<!ELEMENT location (latitude, longitude, name)>
 <!ELEMENT latitude (#PCDATA)>
 <!ELEMENT longitude (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT time (duration, initial_hour)>
 <!ELEMENT duration (#PCDATA)>
+<!ELEMENT initial_hour (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
-<!ELEMENT imgurl (#PCDATA)>
+<!ELEMENT url_img (#PCDATA)>

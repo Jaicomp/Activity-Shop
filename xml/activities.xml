@@ -3,7 +3,7 @@
 <activities>
   <activity>
     <id>1</id>
-    <creator_id>1</creator_id>
+    <group_id>1</group_id>
     <title>Excursion Tramuntana</title>
     <date>01/01/2017</date>
     <price>30</price>
@@ -14,14 +14,18 @@
     <location>
       <latitude>1234</latitude>
       <longitude>1234</longitude>
-    </location>
-    <duration></duration>
+			<name>Tramuntana</name>
+		</location>
+		<time>
+			<duration></duration>
+			<initialHour></initialHour>
+		</time>
     <description></description>
     <imgurl></imgurl>
   </activity>
   <activity>
     <id>2</id>
-    <creator_id>2</creator_id>
+    <group_id>2</group_id>
     <title>Basketball Competition</title>
     <date>01/01/2017</date>
     <price>30</price>
@@ -33,8 +37,11 @@
       <latitude>1234</latitude>
       <longitude>1234</longitude>
     </location>
-    <duration></duration>
+		<time>
+			<duration></duration>
+			<initial_hour></initial_hour>
+		</time>
     <description></description>
-    <imgurl></imgurl>
+    <url_img></url_img>
   </activity>
 </activities>
