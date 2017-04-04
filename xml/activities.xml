@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE activities SYSTEM "activities.dtd">
 <activities>
-  <activity>
-    <id>1</id>
+
+  <activity id ="1">
     <group_id>1</group_id>
     <title>Excursion Tramuntana</title>
     <date>01/01/2017</date>
@@ -22,13 +22,14 @@
 		</time>
     <description></description>
     <imgurl></imgurl>
+    <hashtag>#tramuntanaDiaTal</hashtag>
   </activity>
-  <activity>
-    <id>2</id>
+
+  <activity id = "2">
     <group_id>2</group_id>
     <title>Basketball Competition</title>
     <date>01/01/2017</date>
-    <price>30</price>
+    <price>0</price>
     <capacity>
       <current>10</current>
       <maximum>20</maximum>
@@ -43,5 +44,7 @@
 		</time>
     <description></description>
     <url_img></url_img>
+    <hashtag>#competiBasketDiaTal</hashtag>
   </activity>
+
 </activities>

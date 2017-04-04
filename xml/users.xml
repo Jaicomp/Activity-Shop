@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE users SYSTEM "users.dtd">
 <users>
-  <user>
-    <id>1</id>
+  <user id = "1">
     <name>Jaume Crespí</name>
     <dni>43123456</dni>
     <dob>13/05/1994</dob>
     <sex>male</sex>
     <registrydate>20/02/2017</registrydate>
-    <activity_list type="array">
+    <activity_list>
       <id>1</id>
       <id>2</id>
     </activity_list>

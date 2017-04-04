@@ -1,5 +1,5 @@
 <!ELEMENT users (name)>
-<!ELEMENT user (id, name, dob, sex, registrydate, activity_list)>
+<!ELEMENT user (name, dob, sex, registrydate, activity_list)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT dob (#PCDATA)>

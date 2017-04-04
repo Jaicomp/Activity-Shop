@@ -1,5 +1,5 @@
 <!ELEMENT activities (activity)>
-<!ELEMENT activity (id, group_id, title, date, price, capacity, location, time, description, url_img)>
+<!ELEMENT activity (group_id, title, date, price, capacity, location, time, description, url_img, hashtag)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT group_id (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
@@ -17,3 +17,4 @@
 <!ELEMENT initial_hour (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT url_img (#PCDATA)>
+<!ELEMENT hashtag (#PCDATA)>

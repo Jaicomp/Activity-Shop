@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE groups SYSTEM "groups.dtd">
 <groups>
-	<group>
-		<id>1</id>
+	<group id = "1">
 		<name>Group 1</name>
 		<creator_id>1</creator_id>
 		<organizer_id type="array">
@@ -10,19 +9,21 @@
 			<id>2</id>
 		</organizer_id>
 
-		<users_id type="array">
+		<users_id>
 			<id>3</id>
 			<id>4<id>
 		</users_id>
 
 		<description></description>
 
-		<activity_list type="array">
+		<activity_list>
 			<id>1</id>
 			<id>2</id>
 		<activity_list>
 			
 		<url_icon></url_icon>
+
+		<hashtag>#losmasguays</hashtag>
 
 		<date_creation>01/01/2017</date_creation>
 	</group>
